@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Propuesta KIMPRO</title>
+  <meta name="description" content="Propuesta de sistema inteligente de atención y ventas para KIMPRO.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,650;12..96,750&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="topbar" id="top">
+    <div class="topbar__inner">
+      <a class="topbar__brand" href="#top">KIMPRO <span>Propuesta</span></a>
+      <nav class="topbar__nav" aria-label="Secciones">
+        <a href="#situacion">Situación</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#demo">Conversaciones</a>
+        <a href="#paquetes">Paquetes</a>
+        <a href="#inversion">Inversión</a>
+        <a href="#siguientes-pasos">Siguientes pasos</a>
+      </nav>
+      <a class="btn btn--small btn--ghost" data-pdf-link href="propuesta-kimpro.pdf" download>Descargar PDF</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <p class="hero__for">Preparada para Michelle y el equipo de KIMPRO</p>
+          <h1>De cada conversación, una oportunidad de venta ordenada.</h1>
+          <p class="hero__lead">Un sistema que atiende WhatsApp, Instagram y Facebook con inteligencia artificial, entrega a sus asesores los clientes ya calificados y registra cada oportunidad en un CRM, con precios correctos según el tipo de cliente.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#paquetes">Ver paquetes</a>
+            <a class="btn btn--ghost" href="#demo">Ver conversaciones de ejemplo</a>
+          </div>
+          <dl class="hero__meta">
+            <div><dt>Propuesta</dt><dd data-config="proposalId"></dd></div>
+            <div><dt>Fecha</dt><dd data-config="date"></dd></div>
+            <div><dt>Válida hasta</dt><dd data-config="validUntil"></dd></div>
+          </dl>
+        </div>
+
+        <figure class="hero__visual" aria-label="Ejemplo: un mensaje de WhatsApp se convierte en un lead asignado en el CRM">
+          <div class="phone">
+            <div class="phone__head"><span class="phone__dot"></span>WhatsApp · KIMPRO</div>
+            <div class="phone__body">
+              <p class="bubble bubble--in hero-anim" style="--d:0">Hola, necesito una hidrolavadora para mi restaurante. ¿Qué me recomiendan?</p>
+              <p class="bubble bubble--out hero-anim" style="--d:1">¡Hola! Con gusto. Para recomendarte la adecuada: ¿cuántas horas al día la usarían y qué superficies limpian?</p>
+            </div>
+          </div>
+          <div class="pipeline-mini hero-anim" style="--d:2">
+            <div class="pipeline-mini__col">
+              <span class="pipeline-mini__title">Nuevo lead</span>
+              <div class="lead-card hero-anim" style="--d:3">
+                <strong>Restaurante El Patio</strong>
+                <span>Hidrolavadora · uso diario</span>
+                <span class="tag">Cliente empresa</span>
+                <span class="lead-card__owner">Asignado a: Asesor 1</span>
+              </div>
+            </div>
+            <div class="pipeline-mini__col pipeline-mini__col--muted"><span class="pipeline-mini__title">Cotización</span></div>
+            <div class="pipeline-mini__col pipeline-mini__col--muted"><span class="pipeline-mini__title">Ganado</span></div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- SITUACIÓN -->
+    <section class="section" id="situacion">
+      <div class="wrap">
+        <h2>Lo que nos contaron</h2>
+        <ul class="facts">
+          <li><strong>~100</strong><span>consultas por día</span></li>
+          <li><strong>3</strong><span>asesores de ventas</span></li>
+          <li><strong>3</strong><span>canales: WhatsApp, Instagram y Facebook</span></li>
+          <li><strong>Varios</strong><span>precios según tipo de cliente</span></li>
+          <li><strong>Sin</strong><span>CRM ni registro central de clientes</span></li>
+        </ul>
+
+        <div class="two-col">
+          <div>
+            <h3>Qué significa hoy</h3>
+            <ul class="list">
+              <li>Gran parte del día de los asesores se va en responder lo mismo: ubicación, horarios, catálogo, precios, disponibilidad.</li>
+              <li>La información de cada cliente queda dentro del chat de cada asesor. Si un asesor falta o cambia, se pierde el historial.</li>
+              <li>No hay forma simple de saber cuántas cotizaciones están pendientes ni qué clientes esperan una respuesta.</li>
+              <li>Las consultas que llegan fuera de horario o en horas pico esperan. En este rubro, el cliente que espera suele cotizar con otro proveedor.</li>
+              <li>Con varios niveles de precio, un error al responder (dar precio de distribuidor a un cliente final) cuesta margen directamente.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Qué proponemos lograr</h3>
+            <ul class="list list--check">
+              <li>Respuesta inmediata a toda consulta, las 24 horas, en los tres canales.</li>
+              <li>Que la IA resuelva las preguntas repetitivas y entregue a los asesores clientes ya calificados.</li>
+              <li>Precios siempre tomados de su lista oficial, según el tipo de cliente. La IA nunca inventa un precio.</li>
+              <li>Cada cliente y oportunidad registrada en un solo lugar, con su asesor responsable y su etapa.</li>
+              <li>Visibilidad para gerencia: cuántas consultas llegan, cuántas se cotizan y cuántas se cierran.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section class="section section--tint" id="como-funciona">
+      <div class="wrap">
+        <h2>Cómo funciona, paso a paso</h2>
+        <p class="section__intro">Toque cada paso para ver qué ocurre y quién lo hace. La IA se encarga de lo repetitivo; sus asesores, de negociar y cerrar.</p>
+
+        <div class="flow">
+          <ol class="flow__steps" id="flowSteps" role="tablist" aria-label="Pasos del proceso"></ol>
+          <div class="flow__panel" id="flowPanel" role="tabpanel" aria-live="polite"></div>
+        </div>
+
+        <details class="tech">
+          <summary>Detalle técnico de la arquitectura</summary>
+          <div class="arch" aria-label="Diagrama de arquitectura">
+            <div class="arch__row">
+              <span class="arch__node">WhatsApp</span>
+              <span class="arch__node">Instagram</span>
+              <span class="arch__node">Facebook Messenger</span>
+            </div>
+            <div class="arch__link">APIs oficiales de Meta</div>
+            <div class="arch__row">
+              <span class="arch__node arch__node--core">Agente de IA y automatizaciones<small>n8n · modelo de lenguaje con herramientas controladas</small></span>
+            </div>
+            <div class="arch__link">consulta y registra</div>
+            <div class="arch__row">
+              <span class="arch__node">Catálogo y listas de precios<small>fuente única, administrada por KIMPRO</small></span>
+              <span class="arch__node">CRM<small>Odoo: clientes, oportunidades, cotizaciones</small></span>
+              <span class="arch__node">Bandeja compartida<small>Chatwoot: los 3 asesores responden desde un solo lugar</small></span>
+            </div>
+            <div class="arch__link">entrega</div>
+            <div class="arch__row">
+              <span class="arch__node arch__node--people">3 asesores de ventas</span>
+            </div>
+          </div>
+          <p class="tech__note">Todo se aloja en un servidor dedicado para KIMPRO, con copias de seguridad diarias. Los datos de clientes pertenecen a KIMPRO y se pueden exportar en cualquier momento.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- DEMO CONVERSACIONES -->
+    <section class="section" id="demo">
+      <div class="wrap">
+        <h2>Tres conversaciones reales de su negocio</h2>
+        <p class="section__intro">Así respondería el sistema. A la derecha, lo que ocurre detrás en el CRM mientras el cliente escribe. Los precios son ilustrativos.</p>
+
+        <div class="sim">
+          <div class="sim__tabs" role="tablist" aria-label="Escenarios" id="simTabs"></div>
+          <div class="sim__stage">
+            <div class="phone phone--large">
+              <div class="phone__head"><span class="phone__dot"></span><span id="simChannel">WhatsApp</span> · KIMPRO</div>
+              <div class="phone__body" id="simChat" aria-live="polite"></div>
+            </div>
+            <div class="sim__log">
+              <h3>Lo que hace el sistema</h3>
+              <ol id="simLog" class="log"></ol>
+              <button class="btn btn--small btn--ghost" id="simReplay" type="button">Repetir conversación</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAQUETES -->
+    <section class="section section--tint" id="paquetes">
+      <div class="wrap">
+        <h2>Elija cómo empezar</h2>
+        <p class="section__intro">Seleccione un paquete para ver qué recibe, cómo cambia el día a día de su equipo, el cronograma y la inversión exacta.</p>
+
+        <div class="packages" id="packages" role="radiogroup" aria-label="Paquetes"></div>
+
+        <div class="detail" id="pkgDetail" aria-live="polite"></div>
+
+        <h3 class="compare__title">Comparación completa</h3>
+        <div class="table-scroll">
+          <table class="compare" id="compareTable"></table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROI -->
+    <section class="section" id="retorno">
+      <div class="wrap">
+        <h2>Calcule el retorno con sus propios números</h2>
+        <p class="section__intro">Ajuste los valores. El cálculo usa el costo mensual del paquete seleccionado. Es una estimación para decidir, no una garantía.</p>
+        <div class="roi">
+          <form class="roi__inputs" id="roiForm"></form>
+          <div class="roi__out" id="roiOut" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INVERSIÓN -->
+    <section class="section section--tint" id="inversion">
+      <div class="wrap">
+        <h2>Inversión</h2>
+        <p class="section__intro">Separamos cada costo para que sepa exactamente qué paga, a quién y por qué. Precios en dólares estadounidenses.</p>
+        <div class="invest" id="investBlock"></div>
+        <div class="print-only" id="investPrint"></div>
+
+        <div class="two-col">
+          <div>
+            <h3>Forma de pago</h3>
+            <ul class="list">
+              <li>50% al aprobar la propuesta, para iniciar el diagnóstico.</li>
+              <li>50% al lanzamiento, con el sistema funcionando en sus canales.</li>
+              <li>La mensualidad comienza a cobrarse desde el mes del lanzamiento.</li>
+              <li>Pago en bolivianos al tipo de cambio acordado en el contrato.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Qué incluye la mensualidad</h3>
+            <ul class="list list--check" id="supportList"></ul>
+            <p class="small">No incluye funciones nuevas fuera del paquete contratado; esas se cotizan por separado antes de empezar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="preguntas">
+      <div class="wrap wrap--narrow">
+        <h2>Preguntas frecuentes</h2>
+        <div class="faq" id="faq"></div>
+      </div>
+    </section>
+
+    <!-- SIGUIENTES PASOS -->
+    <section class="section section--dark" id="siguientes-pasos">
+      <div class="wrap">
+        <h2>Siguientes pasos</h2>
+        <ol class="steps">
+          <li><strong>Elegir paquete</strong><span>Confirmamos el alcance final en una reunión de 30 minutos.</span></li>
+          <li><strong>Firmar y anticipo</strong><span>Contrato simple con alcance, plazos y soporte definidos.</span></li>
+          <li><strong>Entregar información</strong><span>Catálogo, listas de precios por tipo de cliente, preguntas frecuentes y accesos a Meta.</span></li>
+          <li><strong>Comenzar</strong><span>Iniciamos el diagnóstico la misma semana.</span></li>
+        </ol>
+        <div class="cta">
+          <p class="cta__chosen">Paquete seleccionado: <strong id="ctaPkg"></strong></p>
+          <div class="cta__actions">
+            <a class="btn btn--primary btn--onDark" id="ctaWhatsapp" href="#" target="_blank" rel="noopener">Elegir este paquete por WhatsApp</a>
+            <a class="btn btn--ghost btn--onDark" id="ctaEmail" href="#">Escribir por correo</a>
+            <a class="btn btn--ghost btn--onDark" data-pdf-link href="propuesta-kimpro.pdf" download>Descargar PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <strong data-config="author"></strong>
+        <span data-config="authorRole"></span>
+      </div>
+      <div class="footer__contact">
+        <a data-config-href="email"></a>
+        <a data-config-href="phone"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
